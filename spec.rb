@@ -37,5 +37,19 @@ RSpec.describe Script do
 				expect(nil).to be_falsy
 			end
 		end
+
+		describe 'yielding' do
+			it 'some of examples' do
+				expect { |b| [12, 3, 1].each(&b) }.to yield_successive_args(12, 3, 1)
+				expect { |b| 19.tap(&b) }.to yield_control
+			end
+		end
+
+		describe 'expecting errors' do
+			it 'go' do
+				expect { raise StandardError }.to raise_error(StandardError)
+				expect { raise StandardError, 'something wrong' }.to raise_error(StandardError, 'something wrong')
+			end
+		end
 	end
 end

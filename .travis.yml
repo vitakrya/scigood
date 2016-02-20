@@ -9,7 +9,9 @@ sudo: false
 
 script: "bundle exec rspec spec.rb"
 
-before_install: ls -R .
+before_install:
+  - ls -R .
+  - uname -a
 
 notifications:
   email:
