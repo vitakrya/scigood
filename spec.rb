@@ -6,4 +6,10 @@ RSpec.describe Script do
 
 		expect(inst1.twice).to eq(180)
 	end
+
+	it "string check" do
+		s1 = "cool things"
+		s1 << " and stuff!"
+		expect(s1).to match(/.*things.*stuff.*/)
+	end
 end
