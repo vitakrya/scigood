@@ -3,10 +3,13 @@ language: ruby
 rvm:
   - 2.2.0
   - 2.2.4
+  - 2.3.0
 
 sudo: false
 
 script: "bundle exec rspec spec.rb"
+
+post_install: ls -R ./vendor/bundle
 
 notifications:
   email:
