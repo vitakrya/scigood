@@ -3,9 +3,3 @@ language: ruby
 sudo: false
 
 script: "rspec spec.rb"
-
-notifications:
-  email:
-  	- trlearning@mail.ru
-  	- betterhelper@mail.ru
-  	- vinder_2@mail.ru
