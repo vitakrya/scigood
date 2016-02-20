@@ -6,4 +6,4 @@ rvm:
 
 sudo: false
 
-script: "rspec spec.rb"
+script: "bundle exec rspec spec.rb"
