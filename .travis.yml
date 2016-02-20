@@ -7,3 +7,8 @@ rvm:
 sudo: false
 
 script: "bundle exec rspec spec.rb"
+
+notifications:
+  email:
+    - trlearning@mail.ru
+    - betterhelper@mail.ru
