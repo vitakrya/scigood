@@ -2,7 +2,7 @@ language: ruby
 
 sudo: false
 
-script: rspec spec.rb
+script: "rspec spec.rb"
 
 notifications:
   email:
