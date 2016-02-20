@@ -9,9 +9,12 @@ sudo: false
 
 script: "bundle exec rspec spec.rb"
 
-post_install: ls -R ./vendor/bundle
+before_install: ls -R .
 
 notifications:
   email:
-    - trlearning@mail.ru
-    - betterhelper@mail.ru
+    recipients:
+      - trlearning@mail.ru
+      - betterhelper@mail.ru
+    on_success: always
+    on_failure: always
