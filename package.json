@@ -4,7 +4,7 @@
   "description": "'My experience with travis testing platform'",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/karma start karma.conf.js --browsers PhantomJS --single-run"
+    "test": "node_modules/.bin/karma start karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",
