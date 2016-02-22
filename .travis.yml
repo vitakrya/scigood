@@ -5,6 +5,8 @@ rvm:
   - 2.2.4
   - 2.3.0
 
+sudo: true
+
 script:
   - bundle exec rspec spec.rb
   - node_modules/.bin/karma start karma.conf.js --single-run
