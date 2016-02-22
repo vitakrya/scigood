@@ -14,7 +14,7 @@ script:
 before_install:
   - ls -R .
   - uname -a
-  - curl -sL https://deb.nodesource.com/setup | sudo bash -
+  - curl -sL https://deb.nodesource.com/setup | bash -
   - apt-get install nodejs
   - npm install
 
