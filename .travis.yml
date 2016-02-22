@@ -20,7 +20,6 @@ before_install:
   - export FIREFOX_BIN=`which firefox`
   - sudo apt-get update
   - sudo apt-get install nodejs
-  - which nodejs
   - which node
 
 notifications:
