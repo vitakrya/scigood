@@ -1,0 +1,30 @@
+{
+  "name": "scigood",
+  "version": "1.0.0",
+  "description": "'My experience with travis testing platform'",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitakrya/scigood.git"
+  },
+  "keywords": [
+    "travis",
+    "ruby",
+    "rails",
+    "javascript"
+  ],
+  "author": "Rushan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitakrya/scigood/issues"
+  },
+  "homepage": "https://github.com/vitakrya/scigood#readme",
+  "devDependencies": {
+    "karma": "^0.13.21",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.7"
+  }
+}
