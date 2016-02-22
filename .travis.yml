@@ -20,8 +20,8 @@ before_install:
   - export FIREFOX_BIN=`which firefox`
   - sudo apt-get update
   - sudo apt-get install nodejs
-  - which node
-
+  - echo $FIREFOX_BIN
+  
 notifications:
   email:
     recipients:
