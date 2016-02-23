@@ -11,10 +11,6 @@ script:
   - bundle exec rspec spec.rb
   - node_modules/.bin/karma start karma.conf.js --single-run
 
-before_install:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
-
 before_script:
   - npm install
 
