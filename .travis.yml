@@ -12,15 +12,6 @@ script:
   - node_modules/.bin/karma start karma.conf.js --single-run
 
 before_install:
-  - ls -R .
-  - uname -a
-  - which python
-  - which python3
-  - which ruby
-  - export FIREFOX_BIN=`which firefox`
-  - sudo apt-get update
-  - sudo apt-get install nodejs
-  - which phantomjs
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 
@@ -34,3 +25,7 @@ notifications:
       - betterhelper@mail.ru
     on_success: always
     on_failure: always
+
+addons:
+  code_climate:
+    repo_token: 852797c6bce074324df93728c02e994536778162d03dedfc761f6a3b98abdff3
