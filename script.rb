@@ -6,8 +6,6 @@ class Script
     @spe = 'Spe ' + rand.to_s
     @ler = 'dc'
     @swe = 'dcdc'
-    @qws = 'dcdsc'
-    @wwde = 'dcdcdc'
     @cd_dcc = 23_234
   end
 
