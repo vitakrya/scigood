@@ -7,7 +7,7 @@ RSpec.describe Script do
   end
 
   it "string check" do
-    s1 = "cool things"
+    s1 = "actually cool things"
     s1 << " and stuff!"
     expect(s1).to match(/.*things.*stuff.*/)
   end
