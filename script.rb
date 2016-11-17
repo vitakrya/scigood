@@ -7,7 +7,7 @@ class Script
     @ler = 'dc'
     @swe = 'dcdc'
     @cd_dcc = 23_234
-    hi
+    hi "Joer "
   end
 
   def twice
