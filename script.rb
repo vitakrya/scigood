@@ -14,7 +14,7 @@ class Script
     @number * 2
   end
 
-  def hi
+  def hi p
     puts "Hi, You I am Froze"
   end
 end
