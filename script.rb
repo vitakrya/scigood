@@ -7,9 +7,14 @@ class Script
     @ler = 'dc'
     @swe = 'dcdc'
     @cd_dcc = 23_234
+    hi
   end
 
   def twice
     @number * 2
+  end
+
+  def hi
+    puts "Hi, You I am Froze"
   end
 end
