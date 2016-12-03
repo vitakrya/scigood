@@ -1,4 +1,6 @@
 require './script'
+require 'coveralls'
+Coveralls.wear!
 
 RSpec.describe Script do
   it 'correctly multiplies to twice' do
