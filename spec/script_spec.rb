@@ -11,6 +11,11 @@ RSpec.describe Script do
     expect(inst1.twice).to eq(-130)
   end
 
+  it 'multiple zero' do
+    inst = Script.new(0)
+    expect(inst.twice).to eq(0)
+  end
+
   it "string check" do
     s1 = "actually cool things"
     s1 << " and stuff!"
