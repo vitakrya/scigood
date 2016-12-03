@@ -8,7 +8,7 @@ rvm:
 sudo: true
 
 script:
-  - bundle exec rspec spec
+  - bundle exec rake
   - node_modules/.bin/karma start karma.conf.js --single-run
 
 before_script:
