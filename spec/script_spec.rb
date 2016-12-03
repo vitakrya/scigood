@@ -6,6 +6,11 @@ RSpec.describe Script do
     expect(inst1.twice).to eq(18)
   end
 
+  it 'multiple neg numbers' do
+    inst1 = Script.new(-65)
+    expect(inst1.twice).to eq(-130)
+  end
+
   it "string check" do
     s1 = "actually cool things"
     s1 << " and stuff!"
